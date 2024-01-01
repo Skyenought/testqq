@@ -43,7 +43,7 @@ func NewServiceInfo() *kitex.ServiceInfo {
 	}
 	extra := map[string]interface{}{
 		"PackageName":     "agent",
-		"ServiceFilePath": `../repo/Skyenought-idl-test-047f972/agent/service.thrift`,
+		"ServiceFilePath": `../repo/Skyenought-idl-test-cd155f3/agent/service.thrift`,
 	}
 	svcInfo := &kitex.ServiceInfo{
 		ServiceName:     serviceName,
